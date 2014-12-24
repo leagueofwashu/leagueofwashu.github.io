@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            
+tagline:          
+url:              
+paginate:         3
+baseurl:          
+author:
+  name:           Brian Choi
+  url:            
+  email:          
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/poole/poole
+pages_list:
+  Archives:	  '/archives'
