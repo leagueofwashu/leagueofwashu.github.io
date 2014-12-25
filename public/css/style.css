@@ -13,7 +13,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -31,6 +31,8 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  
+  margin-bottom: 10px;
   
   transition: margin-bottom .3s ease-in-out;
 }
