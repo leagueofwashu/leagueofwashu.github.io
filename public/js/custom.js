@@ -4,13 +4,13 @@ $(document).ready(function() {
 	console.log('hello');
 });
 
-var navHeight = $('.navbar-wrapper').outerHeight();
-
 
 $(window).scroll(function() {
-	if ( 2 * navHeight < $(window).scrollTop() ) {
+	if ( 10 < $(window).scrollTop() ) {
 		$('.navbar').css('padding-bottom', '0');
-	} else if (navHeight > $(window).scrollTop() ) {
-		$('.navbar').css('padding-bottom', '10px');
+		$('.navbar').css('padding-top', '0');
+	} else {
+		$('.navbar').css('padding-bottom', '7px');
+		$('.navbar').css('padding-top', '3px');
 	}
 });
