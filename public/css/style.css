@@ -20,6 +20,8 @@ body {
   z-index: 20;
   width: 100%;
   
+  background-color: #222;
+  
   margin-top: 0;
 }
 
@@ -32,9 +34,9 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   
-  transition: margin-bottom .3s ease-in-out;
+  transition: padding-bottom .3s ease-in-out;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
