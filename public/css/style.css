@@ -31,6 +31,8 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  
+  transition: margin-bottom .3s ease-in-out;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
