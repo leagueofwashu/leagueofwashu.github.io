@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-	if ( 10 < $(window).scrollTop() ) {
+	if ( $(window).scrollTop() > 10 ) {
 		$('.navbar').css('padding-bottom', '0');
 		$('.navbar').css('padding-top', '0');
 	} else {
