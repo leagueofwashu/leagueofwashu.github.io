@@ -23,6 +23,8 @@ body {
   background-color: #222;
   
   margin-top: 0;
+  
+  transition: opacity .3s ease-in-out;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
