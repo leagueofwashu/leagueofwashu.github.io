@@ -10,7 +10,7 @@ title:            Test
 tagline:          Test
 url:              http://leagueofwashu.github.io
 paginate:         3
-baseurl:          http://leagueofwashu.github.io
+baseurl:          C:\Users\Brian\Documents\GitHub\leagueofwashu.github.io
 author:
   name:           Brian Choi
   url:            
