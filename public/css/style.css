@@ -38,6 +38,9 @@ body {
 
   transition: padding .3s ease-in-out;
 }
+.navbar-brand, .navbar-nav>li>a {
+  transition: padding .3s ease-in-out;
+}
 .navbar-wrapper .navbar .container {
   width: auto;
 }
