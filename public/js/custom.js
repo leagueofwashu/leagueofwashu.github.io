@@ -3,6 +3,7 @@
 $(document).ready(function() {
 	console.log('hello');
 	$('.navbar').css('min-height', '36px');
+	$(body).css('padding-top', '36px');
 });
 
 
