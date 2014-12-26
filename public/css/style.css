@@ -35,10 +35,7 @@ body {
   padding-left: 15px;
   
   margin-bottom: 0;
-  
-  padding-top: 3px;
-  padding-bottom: 7px;
-    
+
   transition: padding .3s ease-in-out;
 }
 .navbar-wrapper .navbar .container {
