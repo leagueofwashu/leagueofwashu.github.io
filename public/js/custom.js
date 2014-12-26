@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-	if ( $(window).scrollTop() > 10 && $('.navbar-toggle').css('display') == 'none') {
+	if ( $(window).scrollTop() > 30 && $('.navbar-toggle').css('display') === 'none') {
 		$('.navbar-brand').css('height', 'auto');
 		$('.navbar-brand').css('padding-top', '8px');
 		$('.navbar-brand').css('padding-bottom', '8px');
