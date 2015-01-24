@@ -1,0 +1,43 @@
+---
+layout: default
+title: Events
+---
+
+
+<div class="container">
+	<div class="jumbotron">
+	  <h1>Upcoming Events <small>subtext</small></h1>
+	  <div id="upcoming" class="slide-down">
+	  	<div id="teams-1" class="sd-title">asdfasdf</div>
+	  	<div id="teams-1-content" class="sd-content">
+	  		<p>Please enable Javascript</p>
+	  	</div>
+	  	<div id="teams-2" class="sd-title">hello</div>
+	  	<div id="teams-2-content" class="sd-content">
+	  		<p>hello</p>
+	  	</div>
+	  </div>
+
+	  <h1>Ongoing Events <small></small></h1>
+	  <div id="ongoing" class="slide-down">
+	  </div>
+	</div>
+
+</div>
+
+<script src="http://leagueofwashu.github.io/public/js/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+	$('.sd-content').css('display', 'none');
+});
+
+$('.sd-title').on('click', function(){
+	var id = '#' + $(this).attr('id') + '-content';
+	if ($(id).css('display') === 'block') {
+		$(id).slideUp(250);
+	} else {
+		$(id).slideDown(250);
+	}
+});
+</script>
