@@ -2,12 +2,18 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html {
+  height: 100%;
+}
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
 
-  background: #d4d4d4;
-  background: linear-gradient(to bottom, #cdcdcd, #f9f9f9)
+  /* background: #d4d4d4;
+  background: linear-gradient(to bottom, #cdcdcd, #f9f9f9) */
+
+  min-height: 100%;
 }
 
 
@@ -26,7 +32,8 @@ body {
   background-color: #222;
   
   margin-top: 0;
-  
+  border-bottom: 4px ridge #FFC642;  
+
   transition: opacity .3s ease-in-out;
 }
 
@@ -83,9 +90,9 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;
   border: 1px solid #f9f9f9;
-  box-shadow: 0px 0px 3px #111;
+  box-shadow: 0px 0px 3px #111;*/
   padding-left: 80px;
   padding-right: 80px;
 }
