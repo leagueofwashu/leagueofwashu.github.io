@@ -5,6 +5,9 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+
+  background: #d4d4d4;
+  background: linear-gradient(to bottom, #cdcdcd, #f9f9f9)
 }
 
 
@@ -54,7 +57,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -79,6 +82,14 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+.marketing {
+  background-color: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  box-shadow: 0px 0px 3px #111;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
