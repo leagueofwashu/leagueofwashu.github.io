@@ -6,8 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Test
-tagline:          Test
+title:            League of WashU
+tagline:          The official League of Legends and eSports club at Washington University in St. Louis
 url:              http://leagueofwashu.github.io
 paginate:         3
 baseurl:          http://leagueofwashu.github.io
