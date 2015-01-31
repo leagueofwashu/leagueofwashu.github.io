@@ -2,24 +2,25 @@
 layout: default
 ---
 
+<div class="jumbotron">
 <div class="container post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h1>{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
 
+
 <div class="container related">
   <h2>Related Posts</h2>
-  <ul class="related-posts">
+  <div class="row">
     {% for post in site.related_posts limit:2 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.about }} | {{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
+      <div class="col-md-4">
+        <h2>{{post.title}}</h2>
+        <span class="post-about">{{ post.about }} | {{ post.date | date_to_string}}</span>
+        <p> {{post.preview }}</p>
+        <p><a class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" role="button">More &raquo;</a></p>
+      </div>
     {% endfor %}
   </ul>
+</div>
 </div>
