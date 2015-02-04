@@ -33,6 +33,6 @@ $(window).scroll(function() {
 });
 
 function resizeCarousel() {
-	$('#myCarousel').css('height', ($(window).width()/carouselWidth * carouselHeight) + 'px' );
-	$('.carousel .item').css('height', ($(window).width()/carouselWidth * carouselHeight) + 'px' );
+	//$('#myCarousel').css('height', ($(window).width()/carouselWidth * carouselHeight) + 'px' );
+	//$('.carousel .item').css('height', ($(window).width()/carouselWidth * carouselHeight) + 'px' );
 }
