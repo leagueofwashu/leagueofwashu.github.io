@@ -16,6 +16,48 @@ body {
   min-height: 100%;
 }
 
+/* CUSTOM */
+
+.centered-title {
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid #777;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.feature-img {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.details {
+  width: 95%;
+  margin: 0 auto;
+}
+.dd-header {
+    font-size: 2.0em;
+    border-bottom: 1px solid #aaa;
+
+    transition: background-color 0.3s ease-in-out;
+
+    padding: 5px;
+}
+
+.dd-content {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.dd-header:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.signup-hide {
+  width: 100%;
+  height: 500px;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */

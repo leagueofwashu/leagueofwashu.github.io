@@ -4,6 +4,8 @@ $(document).ready(function() {
 	console.log('hello');
 	$('.navbar').css('min-height', '36px');
 	$('body').css('padding-top', '40px');
+	$('.dd-content').css('display', 'none');
+	$('.signup-hide').css('display', 'none');
 });
 
 $(window).scroll(function() {
@@ -21,5 +23,22 @@ $(window).scroll(function() {
 		$('.navbar-brand').css('padding-bottom', '15px');
 		$('.navbar-nav>li>a').css('padding-top', '15px');
 		$('.navbar-nav>li>a').css('padding-bottom', '15px');
+	}
+});
+
+$('.signup-link').on('click', function() {
+
+
+	$('#form-' + $(this).attr('id')).toggle();
+	return false;
+});
+
+$('.dd-header').on('click', function() {
+	$(this).toggleClass('dd-active');
+
+	if ( $(this).hasClass('dd-active')) {
+		$(this).parent().find('.dd-content').slideDown(175);
+	} else {
+		$(this).parent().find('.dd-content').slideUp(175);
 	}
 });
