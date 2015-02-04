@@ -1,17 +1,9 @@
 
 
-var carouselWidth = 1900;
-var carouselHeight = 500;
-
 $(document).ready(function() {
 	console.log('hello');
 	$('.navbar').css('min-height', '36px');
 	$('body').css('padding-top', '40px');
-	resizeCarousel();
-});
-
-$(window).resize(function() {
-	resizeCarousel();
 });
 
 $(window).scroll(function() {
@@ -31,8 +23,3 @@ $(window).scroll(function() {
 		$('.navbar-nav>li>a').css('padding-bottom', '15px');
 	}
 });
-
-function resizeCarousel() {
-	//$('#myCarousel').css('height', ($(window).width()/carouselWidth * carouselHeight) + 'px' );
-	//$('.carousel .item').css('height', ($(window).width()/carouselWidth * carouselHeight) + 'px' );
-}
