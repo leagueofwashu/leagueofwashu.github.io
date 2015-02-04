@@ -31,6 +31,7 @@ body {
     width: 100%;
     background-color: #222;
     padding-bottom: 20px;
+    padding-top: 6px;
 }
 
 .centered-title {
