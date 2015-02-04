@@ -63,7 +63,7 @@ body {
 }
 
 .dd-header:after {
-  content: 'show';
+  content: 'click to show';
   float: right;
   font-size: 0.7em;
   opacity: 0;
@@ -73,7 +73,7 @@ body {
 }
 
 .dd-active:after {
-  content: 'hide';
+  content: 'click to hide';
 }
 
 .dd-header:hover:after {
