@@ -18,6 +18,15 @@ body {
 
 /* CUSTOM */
 
+.bg-container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.shadow-container {
+  box-shadow: 0 0 3px #111;
+}
+
 .centered-title {
   text-align: center;
   width: 80%;
