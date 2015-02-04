@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 
   /* background: #d4d4d4;
@@ -20,7 +19,8 @@ body {
 
 .bg-container {
     width: 100%;
-    background-color: #ddd;
+  background: #d4d4d4;
+  background: linear-gradient(to bottom, #cdcdcd, #f9f9f9)
 }
 
 .shadow-container {
@@ -29,7 +29,8 @@ body {
 
 .footer-container {
     width: 100%;
-    background-color: #333;
+    background-color: #555;
+    padding-bottom: 40px;
 }
 
 .centered-title {
