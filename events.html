@@ -1,43 +1,75 @@
 ---
 layout: default
-title: Events
+title: Schedule
 ---
-
-
+<div class="bg-container">
 <div class="container">
-	<div class="jumbotron">
-	  <h1>Upcoming Events <small>subtext</small></h1>
-	  <div id="upcoming" class="slide-down">
-	  	<div id="teams-1" class="sd-title">asdfasdf</div>
-	  	<div id="teams-1-content" class="sd-content">
-	  		<p>Please enable Javascript</p>
-	  	</div>
-	  	<div id="teams-2" class="sd-title">hello</div>
-	  	<div id="teams-2-content" class="sd-content">
-	  		<p>hello</p>
-	  	</div>
+	<div class="jumbotron shadow-container">
+
+	  <h1 class="centered-title">Schedule</h1>
+	  <img class="feature-img" src="{{site.baseurl}}/public/img/daycare.png" width="100%">
+
+	  <p>Interested in what we have planned for this semester? Click any event for details!</p>
+
+	  <h2>Ongoing Events</h2>
+	  <div class="dd-item">
+		<div class="dd-header">WashU LCS</div>
+		<p class="dd-content">
+			<strong>When:</strong> Every week, Fri-Sun<br>
+			<strong>Where:</strong> On the Rift<br>
+			WashU's very own LCS-style tournament complete with a $175 prize pool!
+		</p>
+	  </div>
+	  <div class="dd-item">
+		<div class="dd-header">Summoner School/LANs</div>
+		<p class="dd-content">
+			<strong>When:</strong> TBD<br>
+			<strong>Where:</strong> TBD<br>
+			Stuck in the bronze league? Just started playing League? Want to meet other WashU students to game with? Then come to Summoner School! Anyone of any skill level is welcome!
+		</p>
+	  </div>
+	  <div class="dd-item">
+		<div class="dd-header">Viewing Parties</div>
+		<p class="dd-content">
+			<strong>When:</strong> TBD<br>
+			<strong>Where:</strong> TBD<br>
+			For those of you who are big fans of the eSports revolution, come watch LCS with us!
+		</p>
+	  </div>	  
+
+	  <hr class="featurette-divider">
+
+	  <h2>Spring Events</h2>
+	  <div class="dd-item">
+		<div class="dd-header">WashU LCS Finals</div>
+		<p class="dd-content">
+			<strong>When:</strong> TBD<br>
+			<strong>Where:</strong> TBD<br>
+			Come cheer on the best teams at WashU as they duke it out to determine the champion of WU LCS! More details to come, but we will definitely be having free food and great shoutcasting.
+		</p>
+	  </div>
+	  <div class="dd-item">
+	  <div class="dd-header">Riot Q&amp;A</div>
+	  <p class="dd-content">
+			<strong>When:</strong> TBD<br>
+			<strong>Where:</strong> TBD<br>
+			Ever wonder what it's like to work at Riot Games? Find out what it's like at an open Q&amp;A session featuring Rioters from Riot's nearby St. Louis HQ!
+	  </p>
 	  </div>
 
-	  <h1>Ongoing Events <small></small></h1>
-	  <div id="ongoing" class="slide-down">
+	  <hr class="featurette-divider">
+
+	  <h2>Fall Events</h2>
+	  <div class="dd-item">
+		<div class="dd-header">Extra Life</div>
+		<p class="dd-content">
+			<strong>When:</strong> TBD<br>
+			<strong>Where:</strong> DUC 2nd floor<br>
+			Extra Life is WashU's annual 24-hour gaming marathon! Come play any game and raise money for a great cause!
+		</p>
 	  </div>
+
 	</div>
 
 </div>
-
-<script src="http://leagueofwashu.github.io/public/js/jquery.min.js"></script>
-
-<script>
-$(document).ready(function() {
-	$('.sd-content').css('display', 'none');
-});
-
-$('.sd-title').on('click', function(){
-	var id = '#' + $(this).attr('id') + '-content';
-	if ($(id).css('display') === 'block') {
-		$(id).slideUp(250);
-	} else {
-		$(id).slideDown(250);
-	}
-});
-</script>
+</div>
