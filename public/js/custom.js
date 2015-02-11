@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function() {
-	if ($('.navbar-toggle').css('display') === 'none'){}
+	if ($('.navbar-toggle').css('display') === 'none'){
 		if ( $(window).scrollTop() > 30 && !smallNav) {
 			shrinkNav();
 		} else if ($(window).scrollTop() <= 30 && smallNav){
