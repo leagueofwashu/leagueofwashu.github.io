@@ -14,10 +14,12 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function() {
-	if ( $(window).scrollTop() > 30 && $('.navbar-toggle').css('display') === 'none' && !smallNav) {
-		shrinkNav();
-	} else if ($(window).scrollTop() <= 30 && $('.navbar-toggle').css('display') === 'none' && smallNav){
-		expandNav();
+	if ($('.navbar-toggle').css('display') === 'none'){}
+		if ( $(window).scrollTop() > 30 && !smallNav) {
+			shrinkNav();
+		} else if ($(window).scrollTop() <= 30 && smallNav){
+			expandNav();
+		}
 	}
 });
 
