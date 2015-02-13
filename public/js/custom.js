@@ -8,7 +8,9 @@ $(document).ready(function() {
 	$('.dd-content').css('display', 'none');
 	$('.signup-hide').css('display', 'none');
 
-	if ($(window).scrollTop() > 30 && $('.navbar-toggle').css('display') === 'none'){
+	if ($('.navbar-toggle').css('display') != 'none'){
+		$('.navbar-wrapper').css('position', 'absolute');
+	} else if ($(window).scrollTop() > 30 && $('.navbar-toggle').css('display') === 'none'){
 		shrinkNav();
 	}
 });
