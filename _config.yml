@@ -8,17 +8,13 @@ permalink:        pretty
 # Setup
 title:            League of WashU
 tagline:          The official League of Legends and eSports club at Washington University in St. Louis
-url:              http://leagueofwashu.github.io
+url:              http://low.wustl.edu
 paginate:         3
-baseurl:          http://leagueofwashu.github.io
+baseurl:          http://low.wustl.edu
 author:
   name:           Brian Choi
   url:            
-  email:          
+  email:          brian.choi@wustl.edu
 
 # Custom vars
 version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
-pages_list:
-  Archives:	  '/archives'
