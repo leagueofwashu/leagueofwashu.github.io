@@ -90,6 +90,14 @@ body {
   cursor: pointer;
 }
 
+.schedule-week {
+  text-decoration: underline;
+}
+
+.team-name {
+  font-weight: bold;
+}
+
 .signup-hide {
   width: 100%;
   height: 500px;
