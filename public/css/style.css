@@ -53,8 +53,7 @@ body {
   margin: 0 auto;
 }
 
-.dd-header {
-    font-size: 2.0em;
+.dd-header, .faq-header {
     border-bottom: 1px solid #aaa;
 
     transition: background-color 0.3s ease-in-out;
@@ -62,7 +61,11 @@ body {
     padding: 5px;
 }
 
-.dd-header:after {
+.dd-header {
+    font-size: 2.0em;
+}
+
+.dd-header:after, .faq-header:after {
   content: 'click to show';
   float: right;
   font-size: 0.7em;
@@ -80,21 +83,18 @@ body {
   opacity: 0.8;
 }
 
-.dd-content {
+.dd-content, .faq-content {
     padding: 20px;
     margin-bottom: 10px;
 }
 
-.dd-header:hover {
+.dd-header:hover, .faq-header:hover {
   background-color: #ccc;
   cursor: pointer;
 }
 
-.schedule-week {
-  text-decoration: underline;
-}
 
-.team-name {
+.team-name, .schedule-week {
   font-weight: bold;
 }
 

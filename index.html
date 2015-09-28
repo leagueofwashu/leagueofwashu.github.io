@@ -13,22 +13,22 @@ title: Home
   </ol>
   <div class="carousel-inner" role="listbox">
 	<div class="item active">
-	  <img src="{{site.baseurl}}/public/img/jinxvi.png" alt="First slide">
+	  <img src="{{site.baseurl}}/public/img/riotoffice.jpg" alt="Second slide">
+	  <div class="container">
+		<div class="carousel-caption">
+		  <h1>Meet Riot Games</h1>
+		  <p>Ever wonder what it's like to work at Riot? Come have all your questions answered at this year's Riot Q&amp;A!</p>
+		  <p><a class="btn btn-lg btn-primary" href="{{site.baseurl}}/riotqa" role="button">Learn more</a></p>
+		</div>
+	  </div>
+	</div>
+	<div class="item">
+	<img src="{{site.baseurl}}/public/img/jinxvi.png" alt="First slide">
 	  <div class="container">
 		<div class="carousel-caption">
 		  <h1>WashU LCS</h1>
 		  <p>The spring split of WashU's very own LCS-style tournament is underway!</p>
 		  <p><a class="btn btn-lg btn-primary" href="{{site.baseurl}}/washulcs/" role="button">Learn more</a></p>
-		</div>
-	  </div>
-	</div>
-	<div class="item">
-	  <img src="{{site.baseurl}}/public/img/daycare.png" alt="Second slide">
-	  <div class="container">
-		<div class="carousel-caption">
-		  <h1>LAN Party!</h1>
-		  <p>Join us at our first LAN party of the semester on Wednesday, February 25th!</p>
-		  <p><a class="btn btn-lg btn-primary" href="https://www.facebook.com/events/632200123592803/" role="button">Learn more</a></p>
 		</div>
 	  </div>
 	</div>
@@ -56,7 +56,7 @@ title: Home
     {% for post in site.posts limit:2 %}
     <div class="col-lg-4">
     	<h2>{{ post.title }}</h2>
-    	<span class="post-about">{{ post.about }} | {{ post.date | date_to_string }}</span>
+    	<span class="post-about">{{ post.about }} | posted on {{ post.date | date_to_string }}</span>
     	<p>{{ post.preview }}</p>
     	<p><a class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" role="button">More &raquo;</a></p>
     </div>

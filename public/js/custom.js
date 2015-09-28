@@ -6,6 +6,7 @@ $(document).ready(function() {
 	$('.navbar').css('min-height', '36px');
 	$('body').css('padding-top', '40px');
 	$('.dd-content').css('display', 'none');
+	$('.faq-content').css('display', 'none');
 	$('.signup-hide').css('display', 'none');
 
 	if ($('.navbar-toggle').css('display') != 'none'){
@@ -59,5 +60,15 @@ $('.dd-header').on('click', function() {
 		$(this).parent().find('.dd-content').slideDown(175);
 	} else {
 		$(this).parent().find('.dd-content').slideUp(175);
+	}
+});
+
+$('.faq-header').on('click', function() {
+	$(this).toggleClass('faq-active');
+
+	if ( $(this).hasClass('faq-active')) {
+		$(this).parent().find('.faq-content').slideDown(175);
+	} else {
+		$(this).parent().find('.faq-content').slideUp(175);
 	}
 });

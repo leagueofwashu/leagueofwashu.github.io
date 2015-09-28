@@ -1,7 +1,7 @@
 ---
 layout: post
-about: WashU's very own LCS-style tournament
-preview: Play against other WashU students and compete for some of the $175 prize pool!
+about: Spring semester
+preview: WashU's very own LCS-style tournament
 title: WashU LCS Returns!
 ---
 
