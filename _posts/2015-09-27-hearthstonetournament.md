@@ -1,6 +1,6 @@
 ---
 layout: post
-about: on Sep 27
+about: on Sep 30
 preview: Extra Life Hearthstone Tournament!
 title: Extra Life Hearthstone Tournament!
 ---
